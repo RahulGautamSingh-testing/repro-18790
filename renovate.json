@@ -3,8 +3,7 @@
   "description": "Renovate config for ScribeMD in the style of Dependabot",
   "extends": [
     "config:base",
-    "helpers:disableTypesNodeMajor",
-    "npm:unpublishSafe"
+    "helpers:disableTypesNodeMajor"
   ],
   "addLabels": ["dependencies"],
   "commitBodyTable": true,
