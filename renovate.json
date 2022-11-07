@@ -3,7 +3,6 @@
   "description": "Renovate config for ScribeMD in the style of Dependabot",
   "extends": [
     "config:base",
-    ":assignAndReview(Kurt-von-Laven)",
     "helpers:disableTypesNodeMajor",
     "npm:unpublishSafe"
   ],
